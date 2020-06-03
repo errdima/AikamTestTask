@@ -4,12 +4,11 @@ import search.SearchCriterias;
 import statistic.StatisticOperation;
 import utils.FileUtils;
 
-import java.io.IOException;
 import java.sql.SQLException;
 
 public class Application {
 
-    public static void main(String[] args) throws IOException, SQLException {
+    public static void main(String[] args) {
         if (args.length != 3) {
             System.out.println("Неверный формат запуска программы");
         }
@@ -22,13 +21,21 @@ public class Application {
             switch (query){
                 case "search":
                     if (jsonObject.has("criterias")){
-                        new SearchCriterias().execute(inputFile, outputFile);
+                        try {
+                            new SearchCriterias().execute(inputFile, outputFile);
+                        } catch (SQLException e) {
+                            ErrorAnswer.printError("Возникла SQLException", outputFile);
+                        }
                     } else
                         ErrorAnswer.printError("Проверьте корректность запроса в input.json", outputFile);
                     break;
                 case "stat":
                     if (jsonObject.has("startDate")){
-                        new StatisticOperation().execute(inputFile, outputFile);
+                        try {
+                            new StatisticOperation().execute(inputFile, outputFile);
+                        } catch (SQLException e) {
+                            ErrorAnswer.printError("Возникла SQLException", outputFile);
+                        }
                     } else
                         ErrorAnswer.printError("Проверьте корректность запроса в input.json", outputFile);
                     break;

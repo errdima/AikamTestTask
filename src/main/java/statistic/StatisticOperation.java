@@ -17,7 +17,6 @@ public class StatisticOperation {
 
         JSONObject jsonObject = new JSONObject(FileUtils.readFile(inputFile));
 
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date start = Date.valueOf(jsonObject.getString("startDate"));   //forSQL
         Date end = Date.valueOf(jsonObject.getString("endDate"));       //forSQL
         Period daysPeriod = Period.between(start.toLocalDate(), end.toLocalDate());
