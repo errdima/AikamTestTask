@@ -1,0 +1,176 @@
+{
+ "type": "search",
+ "results": [
+  {
+   "criteria": {"lastName": "Kupis"},
+   "results": [
+    {
+     "lastName": "Kupis",
+     "firstName": "Hadria"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Barclay"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Rhea"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Otes"
+    }
+   ]
+  },
+  {
+   "criteria": {
+    "minTimes": 1,
+    "productName": "Vaccum Bag 10x13"
+   },
+   "results": [
+    {
+     "lastName": "Dorkin",
+     "firstName": "Lora"
+    },
+    {
+     "lastName": "Gurling",
+     "firstName": "Maybelle"
+    },
+    {
+     "lastName": "Tommeo",
+     "firstName": "Chance"
+    },
+    {
+     "lastName": "Dilleway",
+     "firstName": "Gabriela"
+    }
+   ]
+  },
+  {
+   "criteria": {
+    "minExpenses": 50,
+    "maxExpenses": 100
+   },
+   "results": [
+    {
+     "lastName": "Kupis",
+     "firstName": "Rhea"
+    },
+    {
+     "lastName": "Ostridge",
+     "firstName": "Umberto"
+    },
+    {
+     "lastName": "Devenish",
+     "firstName": "Juliane"
+    },
+    {
+     "lastName": "Lingner",
+     "firstName": "Emmalyn"
+    },
+    {
+     "lastName": "Gyford",
+     "firstName": "Melonie"
+    },
+    {
+     "lastName": "Dorkin",
+     "firstName": "Lora"
+    },
+    {
+     "lastName": "Gurling",
+     "firstName": "Maybelle"
+    },
+    {
+     "lastName": "Solleme",
+     "firstName": "Rolf"
+    },
+    {
+     "lastName": "Palk",
+     "firstName": "Scot"
+    },
+    {
+     "lastName": "Pleming",
+     "firstName": "Minette"
+    },
+    {
+     "lastName": "Tommeo",
+     "firstName": "Chance"
+    },
+    {
+     "lastName": "Collyns",
+     "firstName": "Laurie"
+    },
+    {
+     "lastName": "Dickerson",
+     "firstName": "Kelbee"
+    },
+    {
+     "lastName": "Orman",
+     "firstName": "Nariko"
+    },
+    {
+     "lastName": "Dilleway",
+     "firstName": "Gabriela"
+    },
+    {
+     "lastName": "Rehm",
+     "firstName": "Bengt"
+    },
+    {
+     "lastName": "Solleme",
+     "firstName": "Durward"
+    },
+    {
+     "lastName": "Livingstone",
+     "firstName": "Niels"
+    },
+    {
+     "lastName": "Askie",
+     "firstName": "Nani"
+    },
+    {
+     "lastName": "Piell",
+     "firstName": "Analise"
+    }
+   ]
+  },
+  {
+   "criteria": {"badCustomers": 3},
+   "results": [
+    {
+     "lastName": "Kupis",
+     "firstName": "Rhea"
+    },
+    {
+     "lastName": "Ostridge",
+     "firstName": "Umberto"
+    },
+    {
+     "lastName": "Devenish",
+     "firstName": "Juliane"
+    }
+   ]
+  },
+  {
+   "criteria": {"lastName": "Kupis"},
+   "results": [
+    {
+     "lastName": "Kupis",
+     "firstName": "Hadria"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Barclay"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Rhea"
+    },
+    {
+     "lastName": "Kupis",
+     "firstName": "Otes"
+    }
+   ]
+  }
+ ]
+}

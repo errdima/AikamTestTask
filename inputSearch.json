@@ -1,0 +1,19 @@
+{
+"criterias": [
+    {
+      "lastName": "Kupis"
+    },
+    {
+      "productName": "Vaccum Bag 10x13","minTimes": 1
+    },
+    {
+      "minExpenses": 50,"maxExpenses": 100
+    },
+    {
+      "badCustomers": 3
+    },
+	{
+      "lastName": "Kupis"
+    }
+  ]
+}
