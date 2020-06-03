@@ -1,6 +1,6 @@
 package search;
 
-import Utils.DBConnection;
+import utils.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

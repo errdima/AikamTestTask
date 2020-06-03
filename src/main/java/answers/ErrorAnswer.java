@@ -1,7 +1,7 @@
 package answers;
 
-import Utils.FileUtils;
 import org.json.JSONObject;
+import utils.FileUtils;
 
 public class ErrorAnswer {
 

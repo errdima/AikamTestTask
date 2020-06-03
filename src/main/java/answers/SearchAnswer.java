@@ -1,8 +1,8 @@
 package answers;
 
-import Utils.FileUtils;
-import org.json.*;
+import org.json.JSONObject;
 import search.QueryResult;
+import utils.FileUtils;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
 package search;
 
-import Utils.FileUtils;
 import answers.SearchAnswer;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import utils.FileUtils;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

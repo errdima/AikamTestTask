@@ -1,9 +1,10 @@
-import Utils.FileUtils;
 import answers.ErrorAnswer;
 import org.json.JSONObject;
 import search.SearchCriterias;
+import statistic.StatisticOperation;
+import utils.FileUtils;
 
-import java.io.*;
+import java.io.IOException;
 import java.sql.SQLException;
 
 public class Application {
@@ -27,7 +28,7 @@ public class Application {
                     break;
                 case "stat":
                     if (jsonObject.has("startDate")){
-                        // Запускаем Stat
+                        new StatisticOperation().execute(inputFile, outputFile);
                     } else
                         ErrorAnswer.printError("Проверьте корректность запроса в input.json", outputFile);
                     break;
